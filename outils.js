@@ -9,3 +9,11 @@ function couleurDunSpan ( span, couleur ) {
 function mettreUneImage ( img, filename ) {
 	document.getElementById(img).setAttribute ( 'src', filename );
 }
+
+function estMarque ( checkbox ) {
+	return document.getElementById(checkbox).checked;
+}
+
+function estMarqué ( checkbox ) {
+	return estMarque(checkbox);
+}
